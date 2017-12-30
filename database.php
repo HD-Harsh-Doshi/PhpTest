@@ -1,7 +1,7 @@
 <?php
      define("SERVER_NAME","localhost");
      define("DATABASE_USERNAME","root");
-     define("DATABASE_PASSWORD","habaKUKI123!");
+     define("DATABASE_PASSWORD","");
      define("DATABASE_NAME","computer");
 
      $db=mysqli_connect(SERVER_NAME,DATABASE_USERNAME,DATABASE_PASSWORD,DATABASE_NAME);
