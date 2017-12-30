@@ -11,7 +11,7 @@ if (isset($_POST['submit']) && !empty($_POST['submit'])) {
        
    $sql= "INSERT INTO user_info (username,email,password,reg_id,course) VALUES ('$username','$email','$password','$reg_id','$course')";
     $db->query($sql);
-    header("location: index.php");	
+    header("location: home.php");	
 }
 //else{
 //	redirect("location: index.php");
