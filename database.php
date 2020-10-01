@@ -6,6 +6,6 @@
 
      $db=mysqli_connect(SERVER_NAME,DATABASE_USERNAME,DATABASE_PASSWORD,DATABASE_NAME);
      if (mysqli_connect_errno()) {
-     	echo "databse connection failed due to :".mysqli_connect_err();
-     	die();
+     	echo "databse connection failed due to :".mysqli_connect_error();
+     	die("Database connection is failed. Please try again to connect the database.");
      }
